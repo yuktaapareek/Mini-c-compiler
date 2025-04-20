@@ -1,0 +1,32 @@
+codes that can work in out small C like compiler
+//1
+float x = 3.14;
+float y = 2.718;
+int check1 = (x * 2) >= y;
+int check2 = (y - x) <= 1.0;
+int final = check1 && check2;  // Logical AND (&&)
+
+//2
+int m = 10;
+int n = 20;
+int p = 30;
+int cmp1 = m < n;
+int cmp2 = n <= p;
+int cmp3 = p != m;
+int allTrue = cmp1 + cmp2 + cmp3;
+
+//3
+int temperature = 25;
+if (temperature > 30) {
+    int status = 1;  // Hot
+} else if (temperature < 10) {
+status=2}
+//4
+int temperature = 25;
+if (temperature > 30) {
+    int status = 1;  // Hot
+} else if (temperature < 10) {
+    status = 2;  // Cold
+} else {
+    status = 3;  // Moderate
+}
